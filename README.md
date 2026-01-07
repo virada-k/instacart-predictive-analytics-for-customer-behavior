@@ -7,4 +7,4 @@ You can find the full simulation script in `database-simulation.sql`.
 
 ### Database Simulation Results
 This screenshot shows the successfully created 'orders' table with sample data in Beekeeper Studio.
-![Order Table Result](result-of-order-sample.png)
+![Order Table Result](sql-simulation/result-of-order-sample.PNG)
