@@ -19,5 +19,5 @@ This screenshot shows the successfully created 'orders' table with sample data i
 
 <br>
 
-## Data source
-"kaggle": https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset/data
+## Data Source
+"Kaggle dataset": https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset/data
