@@ -31,7 +31,7 @@ These screenshots show the results of the 3 points mentioned above.
 
 <br>
 
-📢 Golden Hour Result
+📢 Golden Hour Result: The data shows that the peak time for customers purchase is between 9 am and 5 pm.
 
 ![Golden Hour Result](02-SQL-queries/result-of-golden-hour-analysis.PNG)
 
