@@ -44,6 +44,7 @@ These screenshots shows the answers three points as mentioned above.
 <br>
 
 📢 Customer Reorder Cycle Result
+
 ![Customer Reorder Cycle Result](02-SQL-queries/result-of-customer-reorder-cycle-analysis.PNG)
 
 
