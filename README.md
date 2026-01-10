@@ -37,7 +37,7 @@ These screenshots show the results of the 3 points mentioned above.
 
 <br>
 
-📢 Golden Days Result
+📢 Golden Days Result: The data shows that the three days with the highest number of product orders are Sunday to Tuesday.
 
 ![Golden Days Result](02-SQL-queries/result-of-golden-day-analysis.PNG)
 
