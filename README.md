@@ -38,6 +38,7 @@ These screenshots shows the answers three points as mentioned above.
 <br>
 
 📢 Golden Days Result
+
 ![Golden Days Result](02-SQL-queries/result-of-golden-day-analysis.PNG)
 
 <br>
