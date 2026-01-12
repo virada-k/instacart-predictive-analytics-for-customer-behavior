@@ -1,52 +1,26 @@
 # 🛒 instacart-predictive-analytics-for-customer-behavior
 Customer behavior analysis and reorder prediction using SQL, R, and Python.
 
-<br>
+1. Root README (หน้าแรกสุด): "The Executive Summary"
+หน้าหลักควรทำหน้าที่เป็น "บทสรุปสำหรับผู้บริหาร" ครับ ไม่ต้องลงรายละเอียด Code แต่ต้องบอกให้ได้ว่า "ทำอะไร เพื่ออะไร และได้ผลสรุปอย่างไร"
 
-## 📢 Database Simulation
-I designed a relational schema.
-You can find the full simulation script in [database-simulation.sql](./01-SQL-database-simulation/database-simulation.sql).
+หัวข้อที่ควรมีในหน้าหลัก:
 
-<br>
+Project Title: ชื่อโปรเจกต์เท่ๆ พร้อมคำอธิบาย 1 ประโยค
 
-### Database Simulation Results
-This screenshot shows the 'orders' table with sample data created in Beekeeper Studio.
-![Order Table Result](01-SQL-database-simulation/result-of-order-sample.PNG)
+Business Problem: ปัญหาที่เรากำลังแก้ (เช่น อยากเพิ่มยอดขายซ้ำ และจัดการสต็อกให้แม่นยำขึ้น)
 
-<br>
-<br>
+Project Structure (Navigation): สำคัญที่สุด ทำเป็น List และใส่ Link ไปยัง Folder ต่างๆ
 
-## 📢 Business Insight
-I analyzed the data to find answers to three points:
-1. **Golden Hour**: Find the best time to arrange staff for packing and delivery.
-2. **Golden Day**: Find the peak days of each week to ensure we have enough stock for customers.
-3. **Customer Reorder Cycle**: To understand how often products are repurchased.
+[01-Database-Simulation](./01-SQL-database-simulation/) - การจำลอง Schema และข้อมูล
 
-You can find the full script in [business-insight-queries.sql](./02-SQL-queries/business-insight-queries.sql).
+[02-SQL-Queries](./02-SQL-queries/) - เจาะลึก Business Insights ด้วย SQL
 
-<br>
+[03-Data-Visualization](./03-Data-Visualization/) - สรุปผลด้วย Dashboards และสถิติเชิงลึก
 
-### Business Insight Results
-These screenshots show the results of the 3 points mentioned above.
+Key Insights (TL;DR): สรุปสิ่งที่น่าตื่นเต้นที่สุด 3 ข้อ (เช่น ช่วงเวลาทองคือ 9 am - 4 pm, อัตราการซื้อซ้ำของสินค้าเป็นปัจจัยหลักใน ML)
 
-<br>
-
-📝 **Golden Hour Result:** The data shows that the peak time for customers purchase is between 9 am and 5 pm.
-
-![Golden Hour Result](02-SQL-queries/result-of-golden-hour-analysis.PNG)
-
-<br>
-
- 📝 **Golden Days Result:** The data shows that the three days with the highest number of product orders are Sunday to Tuesday.
-
-![Golden Days Result](02-SQL-queries/result-of-golden-day-analysis.PNG)
-
-<br>
-
-📝 **Customer Reorder Cycle Result:** The data shows that most products follow a typical purchase cycle.
-Such as "Bulk Products", like laundry detergents, are often bought monthly (on average, twice a month).
-
-![Customer Reorder Cycle Result](02-SQL-queries/result-of-customer-reorder-cycle-analysis.PNG)
+Tech Stack: โลโก้หรือชื่อเครื่องมือที่ใช้ (SQL, R, Python, Google Sheets)
 
 
 <br>
