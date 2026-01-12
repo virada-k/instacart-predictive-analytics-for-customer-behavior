@@ -24,6 +24,6 @@ CREATE TABLE orders (
 <br>
 
 ## Database Simulation Results
-This screenshot shows the 'orders' table with sample data created in Beekeeper Studio.
+This screenshot shows the 'orders' table with sample data successfully created in Beekeeper Studio.
 
 ![Order Table Result](result-of-order-sample.PNG)
