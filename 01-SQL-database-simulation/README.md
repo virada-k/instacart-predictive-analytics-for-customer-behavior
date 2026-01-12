@@ -5,8 +5,11 @@ You can find the full simulation script in [database-simulation.sql](database-si
 <br>
 
 ## Create Table
+I would like to attached some code about the create table according below.
+
 ```sql
 -- This script is designed to create a relational database schema based on the InstaCart Online dataset.
+
 CREATE TABLE orders (
   order_id INT PRIMARY KEY,
   user_id INT NOT NULL,
