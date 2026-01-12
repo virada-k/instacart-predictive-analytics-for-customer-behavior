@@ -14,7 +14,7 @@ These screenshots show the results of the 3 points mentioned above.
 <br>
 
 📝 **Question 1: What are the peak time for ordering?**
-```
+```sql
 -- Analyzing "PEAK Ordering Time" to arrange staff for packing and delivering orders.
 
 SELECT
