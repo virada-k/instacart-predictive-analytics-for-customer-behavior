@@ -16,6 +16,7 @@ CREATE TABLE orders (
   order_hour_of_day INT NOT NULL,
   days_since_prior_order REAL -- can be NULL value for the first order of each user_id
 );
+```
 
 <br>
 
