@@ -29,4 +29,4 @@ Tech Stack: โลโก้หรือชื่อเครื่องมื�
 ## 📢 Data Source
 The dataset used in this project is from the InstaCart Online Grocery Basket Analysis Dataset on Kaggle.
 
-For more information, please visit [InstaCart Website](https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset/data)
+For more information, please visit [InstaCart Dataset](https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset/data)
