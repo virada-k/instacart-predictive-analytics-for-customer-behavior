@@ -20,7 +20,7 @@ You can find details (diagram and code) below.
 
 - **orders:**
     - Specify details about each customer's order (user_id).
-    - order_id column is the primary key 🔑 in the orders table, used to connect to the order_products__prior and the order_products__train table.
+    - order_id column is the primary key (🔑) in the orders table, used to connect to the order_products__prior and the order_products__train table.
 
 - **order_products__prior:** Specify details about the customer's previous order information.
     
