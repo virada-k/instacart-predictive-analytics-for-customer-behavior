@@ -1,6 +1,11 @@
+# 📢 ER Diagram for InstaCart Online Grocery Shopping 2017 Dataset
 
+<br>
 
+I have created a diagram (Database Schema) of this dataset for you can clearly see the overview and connections between each table.
+You can find details (diagram and code) below. 
 
+![Database Design](instacart-diagram.png)
 
 
 ```bdml
