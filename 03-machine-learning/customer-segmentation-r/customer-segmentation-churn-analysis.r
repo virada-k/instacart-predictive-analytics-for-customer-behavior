@@ -3,10 +3,8 @@ library(dplyr)
 library(data.table)
 library(ggplot2)
 
-
 # Download Dataset
 cus_seg <- fread("orders.csv")
-
 
 ## Manage data within dataset
 cus_seg <- cus_seg %>%
