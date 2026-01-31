@@ -19,8 +19,13 @@
 - **Optimal K:** Selected k=4 clusters based on personal suitability.
 
 <br>
+<br>
 
-## 📜 K-Means Precess
+## 📜 Customer Segmentation Summary Table Result
+
+<br>
+
+The data obtained from the K-means process leads to the following conclusions regarding customer segmentation:
 
 | Cluster | Customer Level | Avg Recency (Days) | Avg Frequency (Orders) | Customer Count |
 | :---: | :--- | ---: | ---: | ---: |
