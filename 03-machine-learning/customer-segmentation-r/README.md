@@ -16,7 +16,7 @@
 
     *Note:* Monetary (M) was excluded due to the lack of pricing data in the Instacart dataset.
 
-- **Optimal K:** Selected k=4 clusters based on personal preference.
+- **Optimal K:** Selected k=4 clusters based on personal suitability.
 
 
 
