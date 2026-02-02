@@ -16,7 +16,7 @@
 
     *Note:* Monetary (M) was excluded due to the lack of pricing data in the Instacart dataset.
 
-- **Optimal K:** Selected k=4 clusters based on personal suitability.
+- **Optimal K:** Selected k=4 clusters based on business logic and customer distribution.
 
 - ⌨️ You can find the full script in [customer-segmentation-churn-analysis.r](customer-segmentation-churn-analysis.r).
 
