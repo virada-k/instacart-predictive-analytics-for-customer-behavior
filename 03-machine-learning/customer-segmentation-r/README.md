@@ -47,8 +47,6 @@ segment_summary <- rf_data %>%
                             cluster == 4 ~ "At-Risk Loyalists")) %>%
   select(cluster, customer_level, avg_recency, avg_frequency,
          customer_count)
-
-print(segment_summary)
 ```
 
 <br>
