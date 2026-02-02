@@ -62,7 +62,7 @@ segment_summary <- rf_data %>%
 
 The data obtained from the K-means process led to conclusions regarding customer segmentation to the following :
 
-| Customer Segment | Description | Average Recency (Days) | Average Frequency (Orders) | Number Customer |
+| Customer Segment | Description | Average Recency (Days) | Average Frequency (Orders) | Number of Customer |
 | :--- | :--- | ---: | ---: | ---: |
 | **Core Loyalists** | High frequency & recently active. | 5.48 | 42.30 | 37,525 |
 | **New Customers**  | Recently joined & low frequency. | 5.84 | 8.41 | 42,611 |
