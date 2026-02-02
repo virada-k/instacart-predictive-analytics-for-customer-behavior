@@ -83,7 +83,7 @@ The data obtained from the K-means process led to conclusions regarding customer
 
 - **Criteria:** A customer is flagged as a "High Risk" if their current gap exceeds their personal average by 1.3x (30% delay).
 
-- **Impact:** Identified 29,761 high-value customers (At-Risk Loyalists) who are deviating from their usual habits.
+- **Impact:** Identified 29,761 high-value customers (At-Risk Loyalists) who are deviating from their established purchase patterns.
 
 <br>
 
@@ -99,10 +99,10 @@ The table below summarizes the number customers after I ran the code to Predicti
 <br>
 
 💡 The analysis revealed that: we could potentially retain approximately 35,000 customers (out of 126,000, or 27%) through the collaboration of multiple teams.
-- **At-Risk Loyalists:**  we might ask the Marketing Team to help run campaings such as "🎫 Personalized Discount Coupons" or "📞 Customer Satisfaction Call Survey".
+- **At-Risk Loyalists:**  we might ask the Marketing Team to execute targeted campaigns such as "🎫 Personalized Discount Coupons" or "📞 Customer Satisfaction Call Survey".
 - **Lost Customers:** we might ask the Customer Service Team to help send personalized reminder messages such as "🛎️ We have a new product you might like" or "⭐ Your reward points are about to expire".
 
-These methods may help encourage customers to return to the service  before they permanent quit.
+These methods may help encourage customers to return to the service before they permanently churn.
 
 <br>
 <br>
