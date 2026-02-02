@@ -101,7 +101,8 @@ These methods may help encourage customers to return to the service  before they
 
 ## 📜 High-Priority Retention Chart
 
-[high_priority_retention_targets_chart.png](high_priority_retention_targets_chart.png).
+<img width="1138" height="642" alt="image" src="https://github.com/user-attachments/assets/0752adda-b091-4a6e-a7d3-85c838063bb9" />
+
 
 
 
