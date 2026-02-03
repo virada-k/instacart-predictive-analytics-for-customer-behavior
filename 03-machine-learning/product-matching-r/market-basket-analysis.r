@@ -289,186 +289,23 @@ print(rules_df)
 # 6  0.0010  0.6666667   4.675082
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Bar Chart: Top 5 Product Rules
+ggplot(rules_df, mapping = aes(x = reorder(rules, lift), 
+                               y = lift,
+                               fill = lift)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_gradient(low = "#A9B5DF", high = "#2D336B") +
+  labs(title = "Top 5 Strongest Product Associations",
+       subtitle = "Ranked by Lift (Strength of Correlation)",
+       x = "Association Rules",
+       y = "Lift Value",
+       caption = "Data source: InstaCart Online Grocery Basket Analysis Dataset on Kaggle") +
+  theme(legend.position = "none")
+  
+
+
+## Export CSV for Tableau
+write.csv(rules_df, "product_matching.csv", row.names = F)
 
 
