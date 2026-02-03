@@ -304,6 +304,23 @@ ggplot(rules_df, mapping = aes(x = reorder(rules, lift),
   theme(legend.position = "none")
   
 
+# ------------------------------------------------------- #
+# ## 💡 Business Value & Actionable Insights
+# ------------------------------------------------------- #
+# ## The bar chart visualizes "Lift," which measures the strength of association.
+# ## - A high Lift (e.g., > 90) indicates a strong correlation between items.
+# ## - For same-category items (e.g., Sparkling Water flavors), this suggests 
+# ##  opportunities for 'Flavor Bundling' or 'Variety Packs'.
+# ## - For different-category items (e.g., Chicken Breasts, Avocado and Banana), this shows a cross-category link between meat, vegetables, and fruit.
+# ## Proposed Marketing Actions:
+# ## 1. Product Bundling: Create "Healthy Meal Kits" combining meat and produce.
+# ## 2. Shelf Placement: Locate high-association items near each other to 
+# ##    shorten the customer journey and encourage unplanned purchases.
+# ## 3. Personalized Promotion: Implement "Frequently Bought Together" 
+# ##    recommendations on the mobile app or website during checkout.
+# ------------------------------------------------------- #
+
+
 
 ## Export CSV for Tableau
 write.csv(rules_df, "product_matching.csv", row.names = F)
