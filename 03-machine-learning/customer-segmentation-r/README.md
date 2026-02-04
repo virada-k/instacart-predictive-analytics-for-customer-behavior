@@ -1,17 +1,19 @@
 # 📢 Machine Learning: Customer Segmentation
 
 <br>
+<br>
 
 ## 📜 Business Motivation
-- To
+- To identify and segment customer behavior using K-means clustering.
+- To predict customer segment at high risk of customer churn.
+- To find stategies to encourage customers to return to the service before they permanently churn.
 
 
 <br>
 
 ## 📜 Overview & Methodology
-<br>
 
-- **Algorithm:** K-Means Clustering
+- **Algorithm:** K-means Clustering
   
 - **Feature Selection:** RF (Recency & Frequency) Analysis
 
