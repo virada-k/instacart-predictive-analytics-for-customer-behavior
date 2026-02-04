@@ -1,6 +1,15 @@
 # 📢 Machine Learning: Market Basket Analysis (MBA)
-- Market Basket Analysis (MBA) is model for matching product.
-- This section explores product associations to understand customer purchasing behavior and cross-selling opportunities.
+
+<br>
+<br>
+
+## 🏷️ Meaning
+Market Basket Analysis (MBA) is model for matching product.
+
+<br>
+
+## 🏷️ Business Motivation
+This section explores product associations to understand customer purchasing behavior and cross-selling opportunities.
 
 <br>
 
