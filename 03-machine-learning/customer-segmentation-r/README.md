@@ -77,7 +77,7 @@ The data obtained from the K-means process led to conclusions regarding customer
 
 <br>
 
-💡 Focus only *"At-Risk Loyalists"** and *"Lost Customers"*, as these two clusters have a high risk of customer churn.
+💡 Focus only *"At-Risk Loyalists"* and *"Lost Customers"*, as these two clusters have a high risk of customer churn.
 
 - **Concept:** Instead of using fixed thresholds, we identified "High-Priority Churn Risks" for "At-Risk Loyalists" by comparing a customer's current recency against their personal historical average purchase cycle.
 
