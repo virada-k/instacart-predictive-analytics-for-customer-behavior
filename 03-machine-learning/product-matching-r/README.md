@@ -9,3 +9,9 @@
 <br>
 
 - **Algorithm:** Apriori (Association Rule)
+- **Parameters:** Support = 0.001, Confidence = 0.6, Max Length = 3
+
+
+<br>
+
+*Note:* Support = 0.001 [10000*0.001 = 10 (product matching behavior at least 10 times)]
