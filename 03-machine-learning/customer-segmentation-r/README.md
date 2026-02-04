@@ -23,7 +23,7 @@
 <br>
 <br>
 
-## 📜 Code for K-Means Process
+## 📜 Code for the K-Means Process
 
 The code below is the K-Means process only.
 
