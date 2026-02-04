@@ -213,9 +213,9 @@ inspect(rules_sort)
 
 
 # ------------------------------------------------------- #
-# Actionable Insights: Top 5 High-Potential Rules
-# Focus on the highest "Lift" to identify strong product associations.
-# Note: Extremely high lift can sometimes indicate niche items (e.g., flavored yogurts).
+# ## Actionable Insights: Top 5 High-Potential Rules
+# ## 🔑 Focus on the highest "Lift" to identify strong product associations.
+# ## Note: Extremely high lift can sometimes indicate niche items (e.g., flavored yogurts).
 # ------------------------------------------------------- #
 
 
