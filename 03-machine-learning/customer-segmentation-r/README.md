@@ -8,7 +8,6 @@
 - To predict customer segment at high risk of customer churn.
 - To find stategies to encourage customers to return to the service before they permanently churn.
 
-
 <br>
 
 ## 📜 Overview & Methodology
