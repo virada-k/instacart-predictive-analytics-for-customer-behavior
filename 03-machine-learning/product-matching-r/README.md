@@ -55,8 +55,24 @@ apriori_rules <- apriori(transactions, parameter = list(
 <br>
 <br>
 
+## 📜 Table of the Top 5 High-Potential Rules
+
+<br>
+
+| Rule No. | LHS | RHS | Support | Confidence | Coverage | Lift | Count |
+| :---: | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
+| [1] | {Coconut Sparkling Water} | => {Grapefruit Sparkling Water} | 0.0013 | 0.6842105 | 0.0019 | 112.165660 | 13 |
+| [2] | {Non Fat Raspberry Yogurt, Vanilla Skyr Nonfat Yogurt} | => {Icelandic Style Skyr Blueberry Non-fat Yogurt} | 0.0011 | 0.6875000 | 0.0016 | 98.214286 | 11 |
+| [3] | {Sparkling Lemon Water, Sparkling Water Grapefruit} | => {Lime Sparkling Water} | 0.0014 | 0.6363636 | 0.0022 | 39.772727 | 14 |
+| [4] | {Organic Cucumber, Organic Granny Smith Apple} | => {Bag of Organic Bananas} | 0.0012 | 0.6000000 | 0.0020 | 5.054760 | 12 |
+| [5] | {Boneless Skinless Chicken Breasts, Organic Hass Avocado} | => {Banana} | 0.0010 | 0.6666667 | 0.0015 | 4.675082 | 10 |
 
 
+<br>
+<br>
+
+
+## 📊 Visualizing Relationships
 
 
 
