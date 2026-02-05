@@ -10,8 +10,6 @@ This section explores product associations to understand customer purchasing beh
 
 
 ## 📜 Overview & Methodology
-<br>
-
 - **Algorithm:** Apriori (Association Rule)
 - **Parameters:** Support = 0.001, Confidence = 0.6, Max Length = 3
 - **Metric of Focus:** **Lift** (to identify the strongest and most meaningful associations)
