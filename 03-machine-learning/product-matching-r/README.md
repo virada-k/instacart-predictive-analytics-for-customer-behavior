@@ -1,5 +1,5 @@
 # 📢 Machine Learning: Market Basket Analysis (MBA)
-Market Basket Analysis (MBA) is model for matching products, which is most often used in marketing promotions, such as customers buying product A and product B will receive a discount, etc.
+Market Basket Analysis (MBA) is a model for matching products, which is most often used in marketing promotions, where customers buying product A and product B may receive a discount, etc.
 
 <br>
 
@@ -77,7 +77,7 @@ The network graph reveals clusters of frequently co-purchased items.
 <br>
 
 ### 2. Top 5 Rules by Lift
-The Bar Chart reverals strength of correration of co-purchased items.
+The Bar Chart reverals the strength of correlation of co-purchased items.
 
 <br>
 
