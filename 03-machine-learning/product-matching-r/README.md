@@ -67,7 +67,7 @@ apriori_rules <- apriori(transactions, parameter = list(
 
 ## 📊 Visualizing Relationships
 
-### 1. Network Graph
+### 1. Network Graph (Product Bundling)
 The network graph reveals clusters of frequently co-purchased items.
 
 <br>
@@ -76,12 +76,16 @@ The network graph reveals clusters of frequently co-purchased items.
 
 <br>
 
-### 2. Bar Chart
+### 2. Top 5 Rules by Lift
 The Bar Chart reverals strength of correration of co-purchased items.
 
 <br>
 
 ![Bar Chart](top-5-strongest-product-associations-chart.png).
 
+<br>
 
+### 💡 Insights & Business Value
+- **Insight:** Clear clusters emerge within specific categories (e.g., Beverages) and across different categories (e.g., Meat and Produce).
+- **Product Bundling:** High-lift pairs like **Sparkling Water flavors** are ideal for "Variety Packs," while cross-category links like **Chicken Breasts + Avocado + Banana** suggest "Healthy Meal Kit" opportunities.
 
