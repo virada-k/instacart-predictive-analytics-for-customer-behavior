@@ -1,6 +1,6 @@
 # 📢 Machine Learning: Market Basket Analysis (MBA)
 - **Meaning:** Market Basket Analysis (MBA) is a model for matching products, which is most often used in marketing promotions, where customers buying product A and product B may receive a discount, etc.
-- **Principle:** When a customer pick product A (the ✋ LHS group), there will be a "probability" that the customer will next select product B (the 🤚 RHS group) next.
+- **Principle:** When a customer pick product A (✋ the LHS group), there will be a "probability" that the customer will next select product B (🤚 the RHS group) next.
 
 <br>
 
