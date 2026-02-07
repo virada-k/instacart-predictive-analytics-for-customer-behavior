@@ -65,7 +65,7 @@ apriori_rules <- apriori(transactions, parameter = list(
 
 <br>
 
-| Rule No. | LHS | RHS | Support | Confidence | Coverage | &nbsp;&nbsp;&nbsp; Lift &nbsp;&nbsp;&nbsp; | Count |
+| Rule No. | 🫲 LHS | 🫲 RHS | Support | Confidence | Coverage | &nbsp;&nbsp;&nbsp; Lift &nbsp;&nbsp;&nbsp; | Count |
 | :---: | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
 | [1] | {Coconut Sparkling Water | {Grapefruit Sparkling Water} | 0.0013 | 0.6842 | 0.0019 | 112.1657 | 13 |
 | [2] | {Non Fat Raspberry Yogurt, Vanilla Skyr Nonfat Yogurt} | {Icelandic Style Skyr Blueberry Non-fat Yogurt} | 0.0011 | 0.6875 | 0.0016 | 98.2143 | 11 |
@@ -100,6 +100,6 @@ The Bar Chart reverals the strength of correlation of co-purchased items.
 
 ### 💡 Insight & Business Value
 - **Insight:** Clear clusters emerge within specific categories (e.g., Beverages) and across different categories (e.g., Meat and Produce).
-- **Product Bundling:** High-lift pairs like **Sparkling Water flavors** are ideal for "Variety Packs," while cross-category links like **Chicken Breasts + Avocado + Banana** suggest "Healthy Meal Kit" opportunities.
+- **Product Bundling:** High-lift pairs like **Sparkling Water flavors** are ideal for "Variety Packs," while cross-category links like **🍗 Chicken Breasts + 🥑 Avocado + 🍌 Banana** suggest "Healthy Meal Kit" opportunities.
 - **Recommended products:** Recommendations such as "Frequently Bought Together" can be implemented during the checkout process to increase **Average Order Value (AOV).
 
