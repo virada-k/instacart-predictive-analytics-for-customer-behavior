@@ -1,6 +1,6 @@
 # 📢 Machine Learning: Market Basket Analysis (MBA)
 - **Meaning:** Market Basket Analysis (MBA) is a model for matching products, which is most often used in marketing promotions, where customers buying product A and product B may receive a discount, etc.
-- **Principle:** When a customer pick product A (the LHS group), there will be a "probability" that the customer will next select product B (the RHS group) next.
+- **Principle:** When a customer pick product A (the ✋ LHS group), there will be a "probability" that the customer will next select product B (the 🤚 RHS group) next.
 
 <br>
 
@@ -55,8 +55,8 @@ apriori_rules <- apriori(transactions, parameter = list(
 
 ## 📜 Table of the Top 5 High-Potential Rules
 
-- **LHS (Left-Hand Side):** The product group that customers selected first.
-- **RHS (Right-Hand Side):** Products that are predicted to be purchased by customers after they purchase product "LHS".
+- **✋ LHS (Left-Hand Side):** The product group that customers selected first.
+- **🤚 RHS (Right-Hand Side):** Products that are predicted to be purchased by customers after they purchase product "LHS".
 - **Support:** Measured by popularity based on total sales.
 - **Confidence:** Measure by percentage of confidence that customers who have purchased product A (LHS) will also purchase product B (RHS).
 - **Coverage:** Measured by popularity based on the LHS product. 
@@ -65,7 +65,7 @@ apriori_rules <- apriori(transactions, parameter = list(
 
 <br>
 
-| Rule No. | 🫲 LHS | 🫲 RHS | Support | Confidence | Coverage | &nbsp;&nbsp;&nbsp; Lift &nbsp;&nbsp;&nbsp; | Count |
+| Rule No. | ✋ LHS | 🤚 RHS | Support | Confidence | Coverage | &nbsp;&nbsp;&nbsp; Lift &nbsp;&nbsp;&nbsp; | Count |
 | :---: | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
 | [1] | {Coconut Sparkling Water | {Grapefruit Sparkling Water} | 0.0013 | 0.6842 | 0.0019 | 112.1657 | 13 |
 | [2] | {Non Fat Raspberry Yogurt, Vanilla Skyr Nonfat Yogurt} | {Icelandic Style Skyr Blueberry Non-fat Yogurt} | 0.0011 | 0.6875 | 0.0016 | 98.2143 | 11 |
