@@ -1,6 +1,6 @@
 # 📢 Machine Learning: Market Basket Analysis (MBA)
-- **Meaning:** Market Basket Analysis (MBA) is a model for matching products, which is most often used in marketing promotions, where customers buying product A and product B may receive a discount, etc.
-- **Principle:** When a customer pick product A (✋ the LHS group), there will be a "probability" that the customer will next select product B (🤚 the RHS group) next.
+- **Meaning:** Market Basket Analysis (MBA) is a model for matching products, which is most often used in marketing promotions, where customers buying product A and product B might receive a discount.
+- **Principle:** When a customer picks product A (✋ the LHS group), there will be a "probability" that the customer will next select product B (🤚 the RHS group) next.
 
 <br>
 
@@ -55,23 +55,23 @@ apriori_rules <- apriori(transactions, parameter = list(
 
 ## 📜 Table of the Top 5 High-Potential Rules
 
-- **LHS (✋ Left-Hand Side):** The product group that customers selected first.
-- **RHS (🤚 Right-Hand Side):** Products that are predicted to be purchased by customers after they purchase product "LHS".
+- **LHS (✋ Left-Hand Side):** The product group that customers purchased or put into the basket first.
+- **RHS (🤚 Right-Hand Side):** Products that are predicted to be purchased alongside the "LHS" product.
 - **Support:** Measured by popularity based on total sales.
-- **Confidence:** Measure by percentage of confidence that customers who have purchased product A (LHS) will also purchase product B (RHS).
+- **Confidence:** Measured by the probability of confidence that customers who have purchased product A (LHS) will also purchase product B (RHS).
 - **Coverage:** Measured by popularity based on the LHS product. 
-- **Lift (Strength/Correlation ):** How much more do these two products complement each other than if they were randomly picked? (If it's more than 1, they're related; if the numbers are very high, they should not be sold separately.)
-- **Count:** Count from the number of customer orders.
+- **Lift (Strength/Correlation):** How much more do these two products complement each other than if they were randomly picked? (If it's more than 1, they're related; if the numbers are very high, they are strongly associated.)
+- **Count:** Count from the number of customer orders both LHS and RHS products.
 
 <br>
 
 | Rule No. | ✋ LHS | 🤚 RHS | Support | Confidence | Coverage | &nbsp;&nbsp;&nbsp; Lift &nbsp;&nbsp;&nbsp; | Count |
 | :---: | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
-| [1] | {Coconut Sparkling Water | {Grapefruit Sparkling Water} | 0.0013 | 0.6842 | 0.0019 | 112.1657 | 13 |
-| [2] | {Non Fat Raspberry Yogurt, Vanilla Skyr Nonfat Yogurt} | {Icelandic Style Skyr Blueberry Non-fat Yogurt} | 0.0011 | 0.6875 | 0.0016 | 98.2143 | 11 |
-| [3] | {Sparkling Lemon Water, Sparkling Water Grapefruit} | {Lime Sparkling Water} | 0.0014 | 0.6364 | 0.0022 | 39.7727 | 14 |
-| [4] | {Organic Cucumber, Organic Granny Smith Apple} | {Bag of Organic Bananas} | 0.0012 | 0.6000 | 0.0020 | 5.0548 | 12 |
-| [5] | {Boneless Skinless Chicken Breasts, Organic Hass Avocado} | {Banana} | 0.0010 | 0.6667 | 0.0015 | 4.6751 | 10 |
+| [1] | {Coconut Sparkling Water} | {Grapefruit Sparkling Water} | 0.0013 | 0.6842 | 0.0019 | 112.17 | 13 |
+| [2] | {Non Fat Raspberry Yogurt, Vanilla Skyr Nonfat Yogurt} | {Icelandic Style Skyr Blueberry Non-fat Yogurt} | 0.0011 | 0.6875 | 0.0016 | 98.21 | 11 |
+| [3] | {Sparkling Lemon Water, Sparkling Water Grapefruit} | {Lime Sparkling Water} | 0.0014 | 0.6364 | 0.0022 | 39.77 | 14 |
+| [4] | {Organic Cucumber, Organic Granny Smith Apple} | {Bag of Organic Bananas} | 0.0012 | 0.6000 | 0.0020 | 5.05 | 12 |
+| [5] | {Boneless Skinless Chicken Breasts, Organic Hass Avocado} | {Banana} | 0.0010 | 0.6667 | 0.0015 | 4.68 | 10 |
 
 
 <br>
@@ -90,7 +90,7 @@ The network graph reveals clusters of frequently co-purchased items.
 <br>
 
 ### 2. Top 5 Rules by Lift
-The Bar Chart reverals the strength of correlation of co-purchased items.
+The Bar Chart reveals the strength of correlation of co-purchased items.
 
 <br>
 
